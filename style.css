@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: mintcream;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all-recipes {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    list-style-type: armenian;
+}
+
+.recipe-list-item {
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.recipe-list-item :hover {
+   color: black;
+   font-weight: bolder;
+}
+
+.mini-title {
+    margin-left: 20px;
+}
+
+.recipe-image-div {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main-list-item {
+    text-decoration: none;
+}
