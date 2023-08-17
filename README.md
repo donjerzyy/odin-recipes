@@ -1,1 +1,1 @@
-A simple HTML only recipe app.
+A simple HTML & CSS recipe site.
