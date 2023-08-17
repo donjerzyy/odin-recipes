@@ -8,12 +8,16 @@ body {
     background-color: mintcream;
 }
 
-.title {
+.title, .recipe-title {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.recipe-title {
+    margin-top: 5px;
 }
 
 .all-recipes {
@@ -31,20 +35,68 @@ body {
     font-size: 25px;
 }
 
-.recipe-list-item :hover {
+.recipe-list-item :hover,
+.home-text:hover {
    color: black;
    font-weight: bolder;
 }
 
 .mini-title {
     margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
 }
 
 .recipe-image-div {
     margin-top: 20px;
     width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .main-list-item {
     text-decoration: none;
+}
+
+.recipe-image {
+    object-fit: fill;
+}
+
+.rule {
+    margin-top: 20px;
+}
+
+
+.description, 
+.ingredients, 
+.steps {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ingredients,
+.steps {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.steps {
+    margin-bottom: 10px;
+}
+
+.home-div {
+    margin-left: 20px;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.home-text {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
